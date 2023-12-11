@@ -1,0 +1,512 @@
+
+
+/* hero image */
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../gambar/farmasi.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: wheat;
+    position: relative;
+}
+
+.hero h1 {
+    background-color: #0000009c;
+    padding: 1rem 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 4vh;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+/* hero image end */
+/* back-button*/
+.button {
+    position: absolute;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    color: #fff;
+    background-color: #756565;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+.button:hover{
+    background-color: #5d5454;
+    transition: 0.5s;
+}
+
+.scroll-up{
+    text-align: center;
+    justify-content: center;
+}
+
+/* back-button end*/
+/* content */
+
+.content1 {
+    display: flex;
+}
+
+.list {
+    background-color: #dfdb06;
+    padding: 1.8rem;
+    margin-top: 7%;
+    margin-left: 3%;
+    width: 60vh;
+    height: 100%;
+}
+
+.list li {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+
+}
+
+.list li a {
+    color: #000;
+}
+
+
+.list li a:hover{
+    padding: 0.5rem;
+    text-shadow: 2px 2px 5px red;
+    transition: 0.3s;
+    
+}
+
+
+.text {
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #000;
+    margin: 3%;
+    border-left: 2px solid #fefa00;
+    width: 150vh;
+}
+
+.text h1 {
+    border-bottom: 2px solid #fefa00;
+    width: auto;
+    margin: 1rem 1rem;
+    padding-top: 1rem;
+
+}
+
+.program h1 {
+    padding-bottom: 0.5rem;
+    width: 30rem;
+}
+
+.biaya h1 {
+    padding-bottom: 0.5rem;
+    width: 30rem;
+}
+
+.tentang h1 {
+    padding-bottom: 0.5rem;
+    width: 30rem;
+}
+
+.text p {
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+
+}
+
+/* content end */
+
+/* content 2 */
+.judul {
+    margin-top: 2.5rem;
+    width: 90vw;
+    border-top: 2px solid #dad600;
+    text-align: center;
+}
+
+.judul h1 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.dekan {
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+
+.dekan-fakultas {
+    margin: 0 2%;
+    margin-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.nama h1 {
+    width: auto;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000000;
+    padding: 0.6rem;
+}
+
+.nama h2 {
+    background-color: #1f1e1e;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.6rem;
+    color: #fefa00;
+
+}
+
+
+.dekan-text {
+    background-color: #fefa00;
+    height: auto;
+    padding: 1rem;
+    font-size: 0.7rem
+}
+
+.dekan-text h2 {
+    font-weight: 500;
+    color: #191818;
+    margin-top: 0.4rem;
+}
+
+/* content 2 end */
+
+/* content3 */
+
+.pimpinan-universitas {
+    height: auto;
+}
+
+.pimpinan-container {
+    padding:0 7% 1.4rem;
+}
+
+.pimpinan-container h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+}
+
+.pimpinan-container h2 span {
+    color: #e6e209;
+}
+
+.pimpinan {
+    display: flex;
+}
+
+.pimpinan-img {
+    flex: 1 1 15rem;
+}
+
+.pimpinan-img img {
+    width: 100%;
+    justify-content: center;
+}
+
+.pimpinan-text {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.pimpinan-text h3 {
+    font-size: 1.8rem;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+}
+
+.pimpinan-text p {
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.border {
+    margin-top: 1rem;
+    height: 2px;
+    background-color: #dad600;
+    width: 100%;
+    transform: scaleX(0.9);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pimpinan2 h2 {
+    margin-bottom: 1rem;
+}
+
+.pimpinan2 p {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+
+}
+
+.nama-pimpinan {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.nama-pimpinan-img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.nama-pimpinan-title {
+    margin: 1rem auto 0.5rem;
+}
+
+/* content3 end */
+
+/* content4 */
+
+.alumni h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+    color: #dad600;
+}
+.nama-alumni-img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+
+}
+/* content4 end */
+
+
+
+/* media */
+@media (max-width: 1094px) {
+    html {
+        font-size: 80%;
+
+    }
+
+    /* Footer */
+    .footer-list {
+        font-size: 1rem;
+    }
+
+    .img-footer {
+        height: 15rem;
+    }
+
+    .mitra {
+        height: 7rem;
+    }
+
+    .footer2 {
+        margin-top: 2rem;
+    }
+
+    /* Footer End */
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+    html {
+        font-size: 65.5%;
+    }
+
+    /* navbar */
+    #hamburger-menu {
+        display: inline-block;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #000000;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar-list.active {
+        right: 0;
+    }
+
+    .navbar-list a {
+        color: rgb(209, 209, 209);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar-list a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar-list a:hover::after {
+        transform: scaleX(0.3);
+    }
+
+    .logo {
+        position: relative;
+        height: 6rem;
+        width: 100%;
+    }
+
+    .hubungi {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    /* navbar end*/
+    /* Content1 */
+    .content1 {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .text-box {
+        width: 60vw;
+        height: 60vh;
+    }
+
+    .border-text {
+        background-color: #fefa00;
+        width: 100%;
+        height: 1rem;
+    }
+
+    .text-content1 {
+        font-size: large;
+    }
+
+    .mahasiswa-img {
+        background-size: 96% 100%;
+        height: 75%;
+
+    }
+
+    .kenapa-img {
+        background-size: 96% 100%;
+        height: 75%;
+    }
+
+    .kampus-img {
+        background-size: 96% 100%;
+        height: 75%;
+    }
+
+    /* Content1 end */
+    /* content2 */
+    .pimpinan {
+        flex-wrap: wrap;
+    }
+
+    .pimpinan-img {
+        align-items: center;
+    }
+
+    /* content2 end */
+
+    /* content4 */
+    .container2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+
+    .nama-alumni-img{
+        width: 30%;
+    }
+    /* content4 end */
+    /* Footer */
+    .footer-list {
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 1.7rem;
+        margin: 0 20%;
+        justify-content: center;
+
+    }
+
+    .img-footer {
+        height: 30rem;
+    }
+
+    .footer2 {
+        margin-top: 2rem;
+    }
+
+    /* Footer End */
+
+
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+
+    /* navbar */
+    .logo {
+        width: 140px;
+
+        top: 1%;
+        left: 2%;
+        padding-top: 0.3rem;
+        height: 4rem;
+        width: 13rem;
+        margin: 2%;
+    }
+
+    /* navbar end */
+
+
+    /* Hero */
+    .banner-text h1 {
+        font-size: 50px;
+    }
+
+    /* Hero end*/
+
+    /* content1 */
+    .text-box {
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .text-content1 {
+        font-size: small;
+    }
+
+    /* content1 end */
+
+}
